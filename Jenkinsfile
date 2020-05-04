@@ -5,17 +5,17 @@ pipeline {
     
   stages {
                
-    stage('Install dependencies') {
-      steps {
-        //sh 'npm install'
-      }
-    }
+    // stage('Install dependencies') {
+    //   steps {
+    //     sh 'npm install'
+    //   }
+    // }
      
-    stage('Test') {
-      steps {
-         //sh 'npm test'
-      }
-    }
+    // stage('Test') {
+    //   steps {
+    //      sh 'npm test'
+    //   }
+    // }
 
     stage('Deploy to Heroku') {
       steps {
